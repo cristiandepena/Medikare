@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormularioMedico", "FormularioMedico\FormularioMedico.csproj", "{81F55EF4-EDA1-4DEA-9B46-1EB8AF54DD61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{DEFE9894-3868-485B-9638-8B9269CEAABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{B7669884-DD78-48A1-B94D-48498A173846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F55EF4-EDA1-4DEA-9B46-1EB8AF54DD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F55EF4-EDA1-4DEA-9B46-1EB8AF54DD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F55EF4-EDA1-4DEA-9B46-1EB8AF54DD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F55EF4-EDA1-4DEA-9B46-1EB8AF54DD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFE9894-3868-485B-9638-8B9269CEAABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFE9894-3868-485B-9638-8B9269CEAABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFE9894-3868-485B-9638-8B9269CEAABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFE9894-3868-485B-9638-8B9269CEAABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7669884-DD78-48A1-B94D-48498A173846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7669884-DD78-48A1-B94D-48498A173846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7669884-DD78-48A1-B94D-48498A173846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7669884-DD78-48A1-B94D-48498A173846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

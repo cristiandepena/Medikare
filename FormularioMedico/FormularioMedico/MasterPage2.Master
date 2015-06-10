@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage2.master.cs" Inherits="FormularioMedico.MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Bootstrap/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <StaticMenuStyle CssClass="picapollo"/>
+            <StaticMenuItemStyle CssClass="items"/>
+            <StaticSelectedStyle Font-Italic="true" />
+            <Items>
+                <asp:MenuItem Text="Primer link"></asp:MenuItem>
+                <asp:MenuItem Text="Segundo link"></asp:MenuItem>
+                <asp:MenuItem Text="Tercer link"></asp:MenuItem>
+                <asp:MenuItem Text="cuarto link"></asp:MenuItem>
+                <asp:MenuItem Text="tinto link"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
